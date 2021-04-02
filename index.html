@@ -9,14 +9,15 @@
 	<script type="text/javascript" src="script/script.js"></script>
     <h2>Получение матрицы достижимости при помощи алгоритма Флойда.</h2>
 	<form onsubmit="check(); return false;">
-		<p>Введите в поле матрицу расстояний.<br><b>Если связи между вершинами не существует, то заполнять символом "i".</b></p>
+		<p>Введите в поле матрицу расстояний.<b>Если связи между вершинами не существует, то заполнять символом "i".</b></p>
         <p>Пример:<br>
             i i 8 i<br>
             -4 i i i<br>
             i 6 i 3<br>
             12 i i i<br></p>
-		<textarea name="comment" cols="40" rows="7" placeholder="Введите сюда матрицу" id="input"></textarea><br><br>
-        <textarea name="comment" cols="40" rows="7" readonly placeholder="Здесь будет матрица достижимости" id="output"></textarea><br>
+		<textarea name="comment" cols="40" rows="6" placeholder="Введите сюда матрицу" id="input"></textarea><br><br>
+        <p><b>Матрица достижимости</b><p>
+        <textarea name="comment" cols="40" rows="6" readonly placeholder="Здесь будет матрица достижимости" id="output"></textarea><br>
 		<input type="submit" name="submit-btn" value="Выполнить">
 	</form><br>
 </body>
