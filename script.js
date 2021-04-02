@@ -30,7 +30,6 @@ function check() {
 
 	if (checked == 0) {
 		for (let iter = 0; iter < myMatrix.length; iter++) {
-			var arrayTmp = array;
 	
 			for (let i = 0; i < myMatrix.length; i++) {
 				for (let j = 0; j < myMatrix.length; j++) {
